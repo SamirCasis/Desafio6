@@ -1,6 +1,6 @@
 body {
     margin: 1px;
-    background-color: aliceblue;
+
 }
 
 .navbar {
@@ -13,31 +13,51 @@ body {
 }
 
 .row {
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
-
 
 h1 {
     color: navy;
+}
+
+h3 {
+    text-align: center;
 }
 
 .d-block {
     width: 45rem;
 }
 
-.formacion, li {
+.formacion,
+li {
     margin-top: 15px;
 }
 
-h3 {
-    padding-left: 5%;
+.lista2 {
+    display: grid;
+    justify-content: center;
+    padding: 2%;
 }
 
-footer {
-    justify-items: center;
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 0%;
     
 }
 
+footer {
+    padding: 10px 10 px 10px 10px;
+}
+
+footer .a {
+    justify-items: center;
+    align-content: space-between;
+
+}
+
 h6 {
+    margin-top: 10px;
     padding-bottom: 20px;
 }
