@@ -1,13 +1,27 @@
 
 body {
-    margin: 0px;
+    margin: 1px;
+    background-color:aliceblue;
     }
 
+    .navbar {
+        background-color:rgba(11, 32, 153, 0.829);
+    }
 #imagenperfil {
-    width: 150px;
+    width: 200px;
     border-radius: 10px;
 }
 
+.row {
+    padding-bottom: 50px;
+}
+
+
 h1 {
     color: navy;
+}
+
+.d-block {
+    width: 45rem;
+    
 }
