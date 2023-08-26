@@ -1,12 +1,12 @@
-
 body {
     margin: 1px;
-    background-color:aliceblue;
-    }
+    background-color: aliceblue;
+}
 
-    .navbar {
-        background-color:rgba(11, 32, 153, 0.829);
-    }
+.navbar {
+    background-color: rgba(11, 32, 153, 0.829);
+}
+
 #imagenperfil {
     width: 200px;
     border-radius: 10px;
@@ -23,5 +23,12 @@ h1 {
 
 .d-block {
     width: 45rem;
-    
+}
+
+.formacion, li {
+    margin-top: 15px;
+}
+
+h3 {
+    padding-left: 5%;
 }
