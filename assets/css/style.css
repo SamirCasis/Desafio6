@@ -1,5 +1,5 @@
 body {
-    margin: 1px;
+    margin: 0px;    border: 0px;    padding: 0px;
 
 }
 
@@ -8,8 +8,7 @@ body {
 }
 
 #imagenperfil {
-    width: 200px;
-    border-radius: 10px;
+    width: 200px;    border-radius: 10px;
 }
 
 .row {
@@ -34,30 +33,25 @@ li {
 }
 
 .lista2 {
-    display: grid;
-    justify-content: center;
+    display: grid;    justify-content: center;
     padding: 2%;
 }
 
 .logos {
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    padding: 0%;
-    
+    padding: 0%;    margin: 0%;    border: 0%;
 }
 
-footer {
-    padding: 10px 10 px 10px 10px;
+.logos img {
+
+    display: flex;    justify-content: center;
+    text-align: center;    margin-left: 5px;
 }
 
-footer .a {
-    justify-items: center;
-    align-content: space-between;
-
+.redes {
+    display: flex;    justify-content: center;
+    justify-content: space-evenly;
 }
 
 h6 {
-    margin-top: 10px;
-    padding-bottom: 20px;
+    margin-top:10px; padding-bottom:20px;
 }
